@@ -255,3 +255,38 @@ section {
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
+
+
+@media(max-width:800px){
+    .barraPesquisa{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .tituloGeral{
+        font-size: 18px;
+    }
+
+    .subtitulo{
+        font-size: 16px
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .tituloReferencia{
+        font-size: 18px;
+    }
+    .listaReferencias{
+        font-size: 16px
+    }
+    
+}
